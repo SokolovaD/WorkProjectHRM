@@ -1,0 +1,78 @@
+
+h1.ui.header {
+    font-size: 3em!important;
+}
+
+.all{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+}
+
+.contents {
+    /*background-color: aliceblue;*/
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+/*СТИЛЬ НАПИСАНИЕ В ФОРМЕ*/
+
+.ui.form .field-profil-pat>label{
+    font-family: 'Open Sans', sans-serif!important;
+    font-style: normal!important;
+    font-size: 1.2em!important;
+    margin-bottom: 0.5em!important;
+}
+
+.custom {
+    width: 100%;
+    background: #809f39!important;
+    color: rgba(0,0,0,.7)!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 1.2em!important;
+}
+
+.custom:hover{
+    background: #1e311b!important;
+    color: rgba(255,255,255,.7)!important;
+}
+
+/*САМА ФОРМА*/
+.section{
+    background: #dde0b6;
+    padding: 3em;
+}
+
+/*БЛОК СО СПРАВОЧНОЙ ИНФОРМАЦИЕЙ*/
+#inf {
+    background: #d9dde0;
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 1.2em!important;
+}
+
+
+footer {
+    background-color: #50423d;
+    color: white;
+    padding: 10px;
+    height: 30px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field > input {
+    margin-top: 8px!important;
+}
